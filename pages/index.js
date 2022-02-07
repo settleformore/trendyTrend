@@ -1,9 +1,23 @@
-import styles from '../styles/Home.module.css'
+import React from 'react';
+import styled from 'styled-components';
+import Banner from '../components/Banner';
+import PageNav from '../components/CampaignBuilder/PageNav';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className={styles.container}>
-
-    </div>
+    <Container>
+      <Banner />
+      <PageNav />
+    </Container>
   )
 }
+
+
+// rgba(0, 0, 0, 1)
+export default Home;
+
+const Container = styled.div`
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 1);
+`;
