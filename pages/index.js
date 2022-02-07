@@ -28,6 +28,6 @@ const Container = styled.div`
 `;
 
 const QuickPackages = styled.div`
-  padding-left: 62px;
-  padding-right: 62px;
+  padding-left: 64px;
+  padding-right: 64px;
 `
