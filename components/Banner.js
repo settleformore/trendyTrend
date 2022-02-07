@@ -7,13 +7,8 @@ const Banner = () => {
         <BannerContainer>
             <Notice>
                 <Text>Note: This tool is for Brands. If you’re a Creator,&nbsp;</Text>
-                <Link href={'/'} passHref>
-                    <StyledLink href={'/'}>Apply to join the network here </StyledLink>
-                </Link>
+                <Link href={'/'}>Apply to join the network here </Link>
             </Notice>
-
-            
-
         </BannerContainer>
     )
 }
@@ -34,14 +29,15 @@ const Notice = styled.div`
     text-align: right;
     padding-right: 27px;
     padding-top: 5px;
+    a {
+        color: #FFB917;
+    }
+    a:hover {
+        color: white;
+    }
 `
 
 const Text = styled.p`
     display: inline-block;
     color: white;
-`
-
-const StyledLink = styled.a`
-    color: rgba(255, 185, 23, 1);
-    text-decoration: underline;
 `

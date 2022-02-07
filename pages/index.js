@@ -2,18 +2,23 @@ import React from 'react';
 import styled from 'styled-components';
 import Banner from '../components/Banner';
 import PageNav from '../components/CampaignBuilder/PageNav';
+import ContentPackNav from '../components/CampaignBuilder/ContentPackNav';
 
 const Home = () => {
   return (
     <Container>
       <Banner />
-      <PageNav />
+      <QuickPackages>
+        <PageNav />
+        <ContentPackNav />
+        <div>
+          Cards go here
+        </div>
+      </QuickPackages>
     </Container>
   )
 }
 
-
-// rgba(0, 0, 0, 1)
 export default Home;
 
 const Container = styled.div`
@@ -21,3 +26,8 @@ const Container = styled.div`
   width: 100vw;
   background-color: rgba(0, 0, 0, 1);
 `;
+
+const QuickPackages = styled.div`
+  padding-left: 62px;
+  padding-right: 62px;
+`
