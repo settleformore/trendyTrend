@@ -171,13 +171,7 @@ const PackageSubTitle = styled.p`
     }
 
 `
-const ResourceLink = styled(Link)`
-    text-decoration: underline;
-    display: inline;
-    a:hover {
-        color:  #FFB917;
-    }
-`
+
 const PackageTiers = styled.div`
     i {
         font-weight: 500;
@@ -185,7 +179,7 @@ const PackageTiers = styled.div`
         line-height: 14px;
         color: #B5B5B5;
         white-space: nowrap;
-     }
+    }
 `
 const TiersList = styled.ul`
     p {

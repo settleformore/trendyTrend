@@ -1,10 +1,9 @@
-import React from 'react';
 import { InstagramIcon, 
     TikTokIcon, 
     ComputerIcon,
-     FacebookIcon, 
-     YouTubeIcon, 
-     AmazonIcon } from './ContentIcons';
+    FacebookIcon, 
+    YouTubeIcon, 
+    AmazonIcon } from './ContentIcons';
 import styled from 'styled-components';
 import { PrimaryButton } from '../Buttons/Button';
 
@@ -52,9 +51,9 @@ const NavText = styled.p`
 `
 
 const Nav = styled.div`
-   display: grid;
-   grid-auto-flow: column;
-   gap: 6px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 6px;
 `
 
 const ButtonText = styled.span`
