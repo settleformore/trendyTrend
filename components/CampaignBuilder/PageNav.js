@@ -6,9 +6,9 @@ import { PrimaryButton } from "../Buttons/Button";
 const BlackArrow = () => {
     return (
         <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8.56711 1.13954L12.25 4.82243" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLine="round"/>
-            <path d="M8.56711 8.50298L12.25 4.82009" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLine="round"/>
-            <path d="M12.0817 4.8808L1.25026 4.8808" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLine="round"/>
+            <path d="M8.56711 1.13954L12.25 4.82243" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M8.56711 8.50298L12.25 4.82009" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M12.0817 4.8808L1.25026 4.8808" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
     )
 }

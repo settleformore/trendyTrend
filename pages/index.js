@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Banner from '../components/Banner';
 import PageNav from '../components/CampaignBuilder/PageNav';
 import ContentPackNav from '../components/CampaignBuilder/ContentNav';
+import QuickPacks from '../components/CampaignBuilder/QuickPacks';
 
 const Home = () => {
   return (
@@ -11,9 +12,7 @@ const Home = () => {
       <QuickPackages>
         <PageNav />
         <ContentPackNav />
-        <div>
-          Cards go here
-        </div>
+        <QuickPacks />
       </QuickPackages>
     </Container>
   )
