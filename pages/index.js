@@ -29,4 +29,5 @@ const Container = styled.div`
 const QuickPackages = styled.div`
   padding-left: 64px;
   padding-right: 75px;
+  max-width: 1024px;
 `

@@ -54,11 +54,16 @@ const NavText = styled.p`
 const Nav = styled.div`
    display: grid;
    grid-auto-flow: column;
+   gap: 6px;
 `
 
 const ButtonText = styled.span`
     display: block;
     padding-top: 5px;
+    font-size: 10px;
+    line-height: 16px;
+    top: 259px;
+    left: 416px;
 `
 const ContentButton = styled(PrimaryButton)`
     width: 142px;
@@ -66,6 +71,7 @@ const ContentButton = styled(PrimaryButton)`
     background-color: #292929;
     color: white;
     border-radius: 5px;
+    padding-top: 13px;
     &.active {
         color: black;
         background-color: #FFB917;
