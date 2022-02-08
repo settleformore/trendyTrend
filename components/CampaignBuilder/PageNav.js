@@ -36,10 +36,8 @@ export default PageNav;
 
 const Container = styled.div`
     display: inline-block;
-
     width: 100%;
     height: 70px;
-
     margin-top: 40px;
 `
 
@@ -82,5 +80,12 @@ const IconTextButton = styled(PrimaryButton)`
     padding-bottom: 3px;
     svg {
         margin-left: 8px;
+    }
+    &:hover {
+        color: white;
+        background-color: #292929;
+        svg {
+            filter: invert(97%) sepia(41%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+        }
     }
 `

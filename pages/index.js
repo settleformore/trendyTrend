@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Banner from '../components/Banner';
 import PageNav from '../components/CampaignBuilder/PageNav';
-import ContentPackNav from '../components/CampaignBuilder/ContentPackNav';
+import ContentPackNav from '../components/CampaignBuilder/ContentNav';
 
 const Home = () => {
   return (
