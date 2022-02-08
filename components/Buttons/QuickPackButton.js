@@ -10,7 +10,6 @@ const PackButton = ({children}) => {
 }
 
 const Button = styled(PrimaryButton)`
-    background-color: 
 
     
     &:active {
